@@ -1,0 +1,32 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Datasets (downloaded at runtime via kagglehub)
+data/
+sickle_cell_dataset/
+
+# Model checkpoints / weights
+*.pth
+*.pt
+*.ckpt
+
+# Logs and generated outputs
+training_logs/
+*.csv
+*.png
+!docs/**/*.png
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
